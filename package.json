@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "bundle": "webpack --config ./webpack.config.js --define process.env.NODE_ENV=\"'production'\" --mode=\"production\""
+  },
+  "devDependencies": {
+    "webpack": "4.20.0",
+    "webpack-cli": "2.1.5"
+  }
+}
